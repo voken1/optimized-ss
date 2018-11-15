@@ -1,14 +1,17 @@
 # Optimized-ss by vn
 Optimized shadowsocks server on linux.
 
-## Download these `2 files`:
+## Download to server
 
-Right click the filename below to save/download:
+ubuntu:
+```
+wget https://raw.githubusercontent.com/VisionNetworkProject/optimized-ss/master/optimized-ss.tar.gz
+tar xzf optimized-ss.tar.gz
+chmod +x optimized-ss/ss-server
+cd optimized-ss
+```
 
-- [`ss-server`](https://github.com/VisionNetworkProject/optimized-ss/blob/master/ss-server?raw=true)
-- [`config.json`](https://github.com/VisionNetworkProject/optimized-ss/blob/master/config.json?raw=true)
-
-## Edit the `config.json` file
+## Edit the `./optimized-ss/config.json` file
 
 ```
 {
@@ -21,19 +24,15 @@ Right click the filename below to save/download:
 }
 ```
 
-## Upload them to your server, allow x
-
-```
-chmod +x ss-server
-```
-
 ## run `ss-server`
 
 ```
+cd /path/to/optimized-ss
 ./ss-server
 ```
 
 or
 ```
+cd /path/to/optimized-ss
 ./ss-server&
 ```
