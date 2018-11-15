@@ -1,5 +1,8 @@
-# Optimized-ss by vn
+# Optimized shadowsocks by [vision.network](https://vision.network)
 Optimized shadowsocks server on linux.
+
+Works well on:
+- ubuntu 18.04 LTS (verified)
 
 ## Download to server
 
