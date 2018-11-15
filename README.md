@@ -12,12 +12,12 @@ Right click the filename below to save/download:
 
 ```
 {
-	"port_password": {
-		"80": "yourPassword1",
-		"443": "yourPassword2"
-	},
-	"method": "aes-256-cfb",
-	"timeout": 600
+    "port_password": {
+        "80": "yourPassword1",
+        "443": "yourPassword2"
+    },
+    "method": "aes-256-cfb",
+    "timeout": 600
 }
 ```
 
