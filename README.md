@@ -1,4 +1,4 @@
-# optimized shadowsocks
+# Optimized shadowsocks
 
 Optimized shadowsocks server on linux.
 
