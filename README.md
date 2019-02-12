@@ -1,20 +1,19 @@
-# Optimized shadowsocks by [vision.network](https://vision.network)
+# optimized shadowsocks
+
 Optimized shadowsocks server on linux.
 
-Works well on:
-- ubuntu 18.04 LTS (verified)
 
 ## Download to server
 
 ubuntu:
-```
-wget https://raw.githubusercontent.com/VisionNetworkProject/optimized-ss/master/optimized-ss.tar.gz
-tar xzf optimized-ss.tar.gz
-chmod +x optimized-ss/ss-server
-cd optimized-ss
+```console
+$ wget ..
+$ tar xzf ss-server-v1.2.2.tar.gz
+$ cd ss-server
+$ chmod +x ss-server
 ```
 
-## Edit the `./optimized-ss/config.json` file
+## Edit the config file
 
 ```
 {
@@ -27,15 +26,15 @@ cd optimized-ss
 }
 ```
 
-## run `ss-server`
+## Make it running
 
 ```
-cd /path/to/optimized-ss
+cd /path/to/ss-server
 ./ss-server
 ```
 
 or
 ```
-cd /path/to/optimized-ss
+cd /path/to/ss-server
 ./ss-server&
 ```
