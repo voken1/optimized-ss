@@ -2,39 +2,10 @@
 
 Optimized shadowsocks server on linux.
 
+Run directly after decompression, no need to install any dependencies.
 
-## Download to server
 
-ubuntu:
-```console
-$ wget https://github.com/VisionNetworkProject/optimized-ss/releases/download/v1.2.2/ss-server-v1.2.2.tar.gz
-$ tar xzf ss-server-v1.2.2.tar.gz
-$ cd ss-server
-$ chmod +x ss-server
-```
+## Documents
 
-## Edit the config file
-
-```
-{
-    "port_password": {
-        "80": "yourPassword1",
-        "443": "yourPassword2"
-    },
-    "method": "chacha20-ietf",
-    "timeout": 600
-}
-```
-
-## Make it running
-
-```console
-$ cd /path/to/ss-server
-$ ./ss-server
-```
-
-or
-```console
-$ cd /path/to/ss-server
-$ ./ss-server&
-```
+- [Introduction (English)](https://vision-network.readthedocs.io/en/latest/services/optss.html)
+- [中文说明](https://vision-network.readthedocs.io/zh_CN/latest/services/optss.html)
