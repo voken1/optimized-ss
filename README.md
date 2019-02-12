@@ -28,13 +28,13 @@ $ chmod +x ss-server
 
 ## Make it running
 
-```
-cd /path/to/ss-server
-./ss-server
+```console
+$ cd /path/to/ss-server
+$ ./ss-server
 ```
 
 or
-```
-cd /path/to/ss-server
-./ss-server&
+```console
+$ cd /path/to/ss-server
+$ ./ss-server&
 ```
