@@ -21,7 +21,7 @@ $ chmod +x ss-server
         "80": "yourPassword1",
         "443": "yourPassword2"
     },
-    "method": "aes-256-cfb",
+    "method": "chacha20-ietf",
     "timeout": 600
 }
 ```
