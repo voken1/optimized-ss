@@ -7,7 +7,7 @@ Optimized shadowsocks server on linux.
 
 ubuntu:
 ```console
-$ wget ..
+$ wget https://github.com/VisionNetworkProject/optimized-ss/releases/download/v1.2.2/ss-server-v1.2.2.tar.gz
 $ tar xzf ss-server-v1.2.2.tar.gz
 $ cd ss-server
 $ chmod +x ss-server
